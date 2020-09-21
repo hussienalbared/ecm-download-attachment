@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>Download Attachment</title>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="bootstrap.min.css">
+
+
+
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand">DATAGEAR</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link">Attachment Download</a>
+        </li>
+
+      </ul>
+    </div>
+  </nav>
+  <div class="container">
+    <input type="file" name="inputfile" id="inputfile">
+    <pre id="output"></pre>
+    <form>
+      <!-- <div class="form-group">
+              <label for="ids">Enter ids Separated by comma </label>
+              <input class="form-control" type="text" id="ids" >
+            </div> -->
+      <!-- <div class="form-group">
+                <label for="names">Enter names Separated by comma </label>
+                <input class="form-control" type="text" id="names" >
+              </div> -->
+      <button type="button" class="btn btn-success" id="submit">Download</button>
+    </form>
+
+
+    <h5>Download links</h5>
+
+    <div id="container"></div>
+  </div>
+
+  <script src='main.js'></script>
+ 
+  
+
+</body>
+
+</html>
